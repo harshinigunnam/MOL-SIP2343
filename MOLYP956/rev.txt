@@ -1,0 +1,59 @@
+python has different types of data structures such as:
+list
+tuple
+set
+dictionary
+string
+
+>>list:
+        Lists are ordered,mutable collections of items. For example: fruits=['apple','banana','orange']
+methods in list:
+* append()
+* count()
+*pop()
+*indexing and slicing()
+example: 
+lst=["loki","tippu"]
+lst2=["kavya","horshh"]
+lst.append(lst2)
+print(lst2)
+
+>>Tuple: 
+        Tuples are ordered,immutable collection of items. For example: coordinates=(10,20)
+methods in list:
+* append()
+* count()
+*pop()
+example: 
+tuple = (1, 2, 3)
+element = 4
+appended_tuple =tuple + (element,)
+print(appended_tuple)
+
+
+>>Set:
+        Sets are unordered collections of unique elements. For example: colors={'red','blue','green'}
+methods in list:
+* add()
+* clear()
+*difference()
+*intersection()
+example:
+x = {"apple", "banana", "cherry"}
+y = {"kavya", "horshh", "lokecha"}
+z = x.union(y)
+print(z)
+
+
+
+>>Dictionaries:
+        Dictionaries are key-value pairs where each value is associated with a unique key. For example: student+{'name':'john','age':20}
+
+methods in list:
+* items()
+* clear()
+*keys()
+*pop()
+*update()
+Example:
+thisdict = {"brand": "Ford","model": "Mustang","year": 1964}
